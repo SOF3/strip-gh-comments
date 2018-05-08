@@ -7,8 +7,7 @@
 	}
 
 	const lines = document.getElementsByClassName("pl-s1")
-	iterate_lines:
-		for(let i = 0; i < lines.length; ++i){
+	iterate_lines: for(let i = 0; i < lines.length; ++i){
 			const line = lines[i] as HTMLSpanElement
 			const comments = line.getElementsByClassName("pl-c") as NodeListOf<HTMLSpanElement>
 			const original = line.innerText
