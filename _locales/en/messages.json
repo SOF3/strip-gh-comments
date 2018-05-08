@@ -1,0 +1,8 @@
+{
+	"appName": {
+		"message": "strip-gh-comments"
+	},
+	"description": {
+		"message": "Strip comments on GitHub"
+	}
+}

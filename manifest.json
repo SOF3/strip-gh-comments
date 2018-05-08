@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "__MSG_appName__",
+	"version": "1.0",
+	"default_locale": "en",
+	"description": "__MSG_description__",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://github.com/*/*/blob/*"
+			],
+			"js": [
+				"removeComments.js"
+			],
+			"run_at": "document_idle"
+		}
+	]
+}
