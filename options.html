@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+	<label for="extensions">Exclude file extensions (separate by spaces):</label>
+	<input id="extensions" type="text" placeholder="html d.ts"/>
+</p>
+
+<p>
+	<label for="comments">Only
+		<select id="incl_excl">
+			<option value="include">include</option>
+			<option value="exclude">exclude</option>
+		</select>
+		comments matching this pattern:
+	</label><br/>
+	<code>/<input type="text" id="comments" placeholder="// ?TODO.*"/>/<select id="flags">
+		<option value="gu">gu</option>
+		<option value="giu">giu</option>
+	</select></code>
+
+</p>
+
+<p>
+	<button id="save">Save</button>
+</p>
+
+<script src="options.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "strip-gh-comments",
+  "version": "1.0.0",
+  "description": "Strip comments on GitHub",
+  "main": "options.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SOF3/strip-gh-comments.git"
+  },
+  "author": "SOFe",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SOF3/strip-gh-comments/issues"
+  },
+  "homepage": "https://github.com/SOF3/strip-gh-comments#readme",
+  "dependencies": {
+    "@types/chrome": "0.0.65"
+  }
+}
