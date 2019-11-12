@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/SOF3/strip-gh-comments#readme",
   "dependencies": {
-    "@types/chrome": "0.0.65"
+    "@types/chrome": "0.0.91"
   }
 }
